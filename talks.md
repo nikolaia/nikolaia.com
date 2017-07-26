@@ -13,6 +13,16 @@ This is a list of talks I've held, and appearances I've done, that are available
 
 <iframe src="https://channel9.msdn.com/Events/NDC/NDC-Oslo-2017/C9L12/player" width="764" height="430" allowFullScreen frameBorder="0"></iframe>
 
+## Using F# on Azure Functions in Production (English)
+
+In this talk I'll show a real world example of running F# on Azure Functions. By consuming several APIs in a deployment pipeline we have created a service that generates informative changelogs between environments. I want to show you how easily you can do the same.
+
+Using the power of F# Type Providers we'll create a new project, integrate with three external systems and deploy to Azure Functions in under an hour. We'll go all the way from the drawing board to running in production.
+
+The presentation does not assume any prior familiarity with F#, Type Providers or Azure Functions.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pabo99C6_JA" frameborder="0" allowfullscreen></iframe>
+
 ## Changelog-as-a-service - F# på Azure Functions (Norwegian)
 
 Denne talken er perfekt for deg som vil se de store styrkene til F# og få et innblikk i Azure Functions (Serverless). Gjennom integrasjoner med tre forskjellige systemer i deployment pipelinen lager vi en tjeneste som genererer en endringslogg mellom miljøer. Vi kombinerer F# Type Providers og muligheten til å kjøre F# scripts serverless på Azure Functions!
