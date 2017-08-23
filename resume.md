@@ -9,12 +9,13 @@ author_profile: true
 
 I specialize in .NET with a focus on F#. I have experience with full stack development, but prefer working with back-end systems - especially automation and integrations.
 
-These are my key competency areas  in no specific order: F#, C#, T-SQL, .NET, .NET Core, Ruby, Objective-C, iOS, JavaScript, CSS, HTML, Suave, WCF, ASP.NET, ASP.NET Core, Docker, MS SQL Server, Azure SQL, Azure Cosmos DB, Elasticsearch, DevOps, Cloud, Continuous Delivery, Lean, Agile
+These are my key competency areas  in no specific order: F#, C#, T-SQL, .NET, .NET Core, Ruby, Objective-C, iOS, JavaScript, CSS, HTML, Suave, WCF, ASP.NET, ASP.NET Core, Azure, Docker, MS SQL Server, Azure SQL, Elasticsearch, DevOps, Cloud, Continuous Delivery, Lean, Agile
 
 ## Work experience
 
 * **March 2014 → Present** - Senior Consultant @ [Bekk Consulting AS](https://www.bekk.no)
   * .NET Practice Lead since August 2016
+  * Experience with big, critical systems written in C# and F#. Both maintenance and renewal of existing systems as well as greenfield projects.
 
 * **September 2013 → Present** - Founder @ [Idéhub](http://www.idehub.com)
   * Developing, and maintaining, the companies own products, both on the business side and the computer engineering side. Responsible for administrative work and corporate economy.
@@ -47,7 +48,7 @@ These are my key competency areas  in no specific order: F#, C#, T-SQL, .NET, .N
 * **2016** - BEKK Project Manager Program 2016
 * **2014** - Certification: Microsoft - Developing ASP.NET MVC 4 Web Applications (70-486)
 * **2014** - BEKK Bootcamp
-* **2013** - Course: Technology Entrepreneurship - Onlinekurs hos Stanford
+* **2013** - Course: Technology Entrepreneurship - Online Course at Stanford
 
 ## Publications and talks
 
