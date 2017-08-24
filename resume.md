@@ -9,7 +9,7 @@ author_profile: true
 
 I specialize in .NET with a focus on F#. I have experience with full stack development, but prefer working with back-end systems - especially automation and integrations.
 
-These are my key competency areas  in no specific order: F#, C#, T-SQL, .NET, .NET Core, Ruby, Objective-C, iOS, JavaScript, CSS, HTML, Suave, WCF, ASP.NET, ASP.NET Core, Azure, Docker, MS SQL Server, Azure SQL, Elasticsearch, DevOps, Cloud, Continuous Delivery, Lean, Agile
+These are my key competency areas  in no specific order: F#, C#, T-SQL, .NET, .NET Core, Ruby, Objective-C, iOS, JavaScript, CSS, HTML, Suave, WCF, ASP.NET, ASP.NET Core, Azure, Docker, MS SQL Server, Azure SQL, Elasticsearch, RabbitMQ, DevOps, Cloud, Continuous Delivery, Lean, Agile
 
 ## Work experience
 
