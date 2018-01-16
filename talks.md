@@ -23,6 +23,8 @@ The presentation does not assume any prior familiarity with F#, Type Providers o
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pabo99C6_JA" frameborder="0" allowfullscreen></iframe>
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vxsSiTsQWEg" frameborder="0" allowfullscreen></iframe>
+
 ## Changelog-as-a-service - F# på Azure Functions (Norwegian)
 
 Denne talken er perfekt for deg som vil se de store styrkene til F# og få et innblikk i Azure Functions (Serverless). Gjennom integrasjoner med tre forskjellige systemer i deployment pipelinen lager vi en tjeneste som genererer en endringslogg mellom miljøer. Vi kombinerer F# Type Providers og muligheten til å kjøre F# scripts serverless på Azure Functions!
