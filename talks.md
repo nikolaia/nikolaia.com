@@ -37,7 +37,7 @@ Using the power of F# Type Providers we'll create a new project, integrate with 
 The presentation does not assume any prior familiarity with F#, Type Providers or Azure Functions.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pabo99C6_JA" frameborder="0" allowfullscreen></iframe>
-
+<p></p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vxsSiTsQWEg" frameborder="0" allowfullscreen></iframe>
 
 ## Changelog-as-a-service - F# på Azure Functions (Norwegian)
