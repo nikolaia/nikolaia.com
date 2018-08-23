@@ -7,6 +7,21 @@ author_profile: true
 
 This is a list of talks I've held, and appearances I've done, that are available online.
 
+## Immutable application deployments with F# Make (English)
+
+Deliver continuously to Azure Web Apps by making your build- and deployment pipeline scalable and testable with F# Make! This presentation will show you how to write build- and deployment-scripts that runs the same on your local machine as when deploying in an Azure Web App!
+I'll do the following:
+
+* Introduce you to FAKE and how it compares to Cake and PSAKE
+* Teach you about Kudu, the engine behind deployments to Azure Web Apps
+* Show you how you can free yourself of saving environment specific configuration in tools like Octopus Deploy and VSTS
+* Demonstrate migrating Azure SQL databases on deploy, using the Web Apps connection string(s)
+* Show how add ARM to this setup, how to approach security and how to automatically smoke test
+
+*Video from NDC Oslo 2018:*
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_sZT0CpJ6Vo" frameborder="0" allowfullscreen></iframe>
+
 ## Interview on Channel 9 at NDC Oslo 2017
 
 > Join us as we chat with Nikolai Andersen around his session on F# and Azure
