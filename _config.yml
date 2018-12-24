@@ -16,7 +16,7 @@ description              : "Personal homepage of Nikolai Norman Andersen"
 url                      : "https://nna.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "nikolaia/nnaio" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser                   : "/assets/images/speaker_banner.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -79,7 +79,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Nikolai Norman Andersen"
+  name             : "Nikolai N. Andersen"
   avatar           : "https://s.gravatar.com/avatar/13f636469bee3cce77f1bbb039d99a1e?s=110"
   bio              : "Software Engineer"
   location         : "Oslo, Norway"
