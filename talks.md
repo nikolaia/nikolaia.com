@@ -1,19 +1,14 @@
 ---
 layout: single
-title: Talks
 permalink: /talks/
-header:
-  image: /assets/images/speaker_banner.jpg
 ---
 
-This is a list of talks I've held, and appearances I've done, that are available online.
-
-* [Immutable application deployments with F# Make (NDC Oslo 2018, English)](https://www.youtube.com/watch?v=_sZT0CpJ6Vo)
-* [Interview on Channel 9 (NDC Oslo 2017, English)](https://channel9.msdn.com/Events/NDC/NDC-Oslo-2017/C9L12/)
-* [Using F# on Azure Functions in Production (NDC Oslo 2017, English)](https://www.youtube.com/watch?v=pabo99C6_JAo)
-* [Using F# on Azure Functions in Production (BuildStuff 2017, English)](https://www.youtube.com/watch?v=vxsSiTsQWEg)
-* [Changelog-as-a-service - F# på Azure Functions (Bekk Fagdag 2017, Norwegian)](https://vimeo.com/207536241)
-* [Lord of Chaos - Becoming a Chaos Engineer (Javazone 2017, English)](https://vimeo.com/181925286)
-* [Introducing DevOps mentality at a government agency (Booster Conference 2016, English)](https://vimeo.com/164412754)
-* [The Docker Toolbox (NNUG Meetup 2015, English)](https://vimeo.com/138174363)
-* [Pr&oslash;veadministrasjonssystemet PAS: A DevOps story (Bekk Fagdag 2015, Norwegian)](https://vimeo.com/146329292)
+- [Immutable application deployments with F# Make](https://www.youtube.com/watch?v=_sZT0CpJ6Vo)<br/><small>NDC Oslo 2018, English</small>
+- [Interview on Channel 9](https://channel9.msdn.com/Events/NDC/NDC-Oslo-2017/C9L12/)<br/><small>NDC Oslo 2017, English</small>
+- [Using F# on Azure Functions in Production](https://www.youtube.com/watch?v=pabo99C6_JAo)<br/><small>NDC Oslo 2017, English</small>
+- [Using F# on Azure Functions in Production](https://www.youtube.com/watch?v=vxsSiTsQWEg)<br/><small>BuildStuff 2017, English</small>
+- [Changelog-as-a-service - F# på Azure Functions](https://vimeo.com/207536241) <br/><small>Bekk Fagdag 2017, Norwegian</small>
+- [Lord of Chaos - Becoming a Chaos Engineer](https://vimeo.com/181925286)<br/><small>Javazone 2017, English</small>
+- [Introducing DevOps mentality at a government agency](https://vimeo.com/164412754)<br/><small>Booster Conference 2016, English</small>
+- [The Docker Toolbox](https://vimeo.com/138174363)<br/><small>NNUG Meetup 2015, English</small>
+- [Pr&oslash;veadministrasjonssystemet PAS: A DevOps story](https://vimeo.com/146329292)<br/><small>Bekk Fagdag 2015, Norwegian</small>

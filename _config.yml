@@ -79,9 +79,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Nikolai N. Andersen"
+  name             : "Nikolai Norman Andersen"
   avatar           : "https://s.gravatar.com/avatar/13f636469bee3cce77f1bbb039d99a1e?s=110"
-  bio              : "Software Engineer"
+  bio              : "Remote working software engineer. Currently working with WebRTC, Typescript, node, react+redux, docker and terraform+AWS."
   location         : "Oslo, Norway"
   email            :
   uri              :
