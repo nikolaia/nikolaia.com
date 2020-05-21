@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "nna.io"
+title                    : "Nikolai Norman Andersen"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "nna.io"
-description              : "Writtings by, videos of talks held by, and links to social media accounts of, Nikolai Norman Andersen"
+description              : "Writings by Nikolai Norman Andersen"
 url                      : "https://nna.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -107,9 +107,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Nikolai Norman Andersen"
+  name             : 
   avatar           : "https://s.gravatar.com/avatar/13f636469bee3cce77f1bbb039d99a1e?s=220"
-  bio              : "Remote working software engineer. Currently working with WebRTC, Typescript, node, react+redux, docker and terraform+AWS."
+  bio              : "My name is Nikolai and a I'm Computer Engineer from Harstad, Norway. I currently live in Oslo and work from home. This website has my writings and talks about technology and privacy, both in english and norwegian."
   location         : "Oslo, Norway"
   github           : "nikolaia"
   keybase          : "nikolaia"
@@ -266,8 +266,8 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
-      comments: # true
+      comments: false
       share: true
-      related: true
+      related: false
