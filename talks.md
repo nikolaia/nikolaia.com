@@ -3,6 +3,7 @@ layout: single
 permalink: /talks/
 ---
 
+- [Death to Test Environments](https://www.youtube.com/watch?v=86QbluMG28s)<br/><small>Ignite talk at Devopsdays Oslo 2021, English.</small>
 - [Immutable application deployments with F# Make](https://www.youtube.com/watch?v=_sZT0CpJ6Vo)<br/><small>NDC Oslo 2018, English</small>
 - [Interview on Channel 9](https://channel9.msdn.com/Events/NDC/NDC-Oslo-2017/C9L12/)<br/><small>NDC Oslo 2017, English</small>
 - [Using F# on Azure Functions in Production](https://www.youtube.com/watch?v=pabo99C6_JAo)<br/><small>NDC Oslo 2017, English</small>
