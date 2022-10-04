@@ -3,9 +3,6 @@ layout: single
 title: "Tre ting du må tenke på før du går på TikTok"
 date: 2022-09-17 08:00:00
 canonical_url: https://www.kom24.no/1709221-gdpr-kina/tre-ting-du-ma-tenke-pa-for-du-gar-pa-tiktok/532542
-header:
-  image: https://image.kom24.no/532563.webp?imageId=532563&width=1058&height=604
-  caption: "Fra kom24.no - Nikolai Norman Andersen mener TikTok er en versting når det gjelder personvern. "
 ---
 
 Aktører som ønsker å ta i bruk TikTok har tre problemstillinger de må ta stilling til: De ansattes personvern, risikoen for innhenting av data til etterretningsformål og bidraget til å fortsette veksten av en personvernsversting som TikTok.
