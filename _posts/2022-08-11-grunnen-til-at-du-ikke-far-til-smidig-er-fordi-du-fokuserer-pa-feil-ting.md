@@ -2,6 +2,7 @@
 layout: single
 title: "Grunnen til at du ikke får til smidig, er fordi du fokuserer på feil ting"
 date: 2022-08-11 11:15:00
+canonical_url: https://blog.variant.no/grunnen-til-at-du-ikke-f%C3%A5r-til-smidig-er-fordi-du-fokuserer-p%C3%A5-feil-ting-a890640553ea 
 header:
   image: assets/images/cargo-cults.jpg
   caption: "A ceremonial cross of the John Frum cargo cult, Tanna island, New Hebrides (now Vanuatu), 1967 — Tim Ross — Own work"
