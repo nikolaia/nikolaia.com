@@ -3,6 +3,7 @@ layout: single
 permalink: /talks/
 ---
 
+- [Death to Test Environments](https://www.youtube.com/watch?v=ZToDbkFyAto)<br/><small>Lightning talk at NDC Oslo 2022, English.</small>
 - [How privacy demands in software development has changed since the introduction of GDPR](https://vimeo.com/692594162)<br/><small>Booster 2022, English</small>
 - [Personvern i 2021 - Hva må du vite som utvikler?](https://vimeo.com/677812837)<br/><small>Javazone 2021, Norwegian</small>
 - [Death to Test Environments](https://www.youtube.com/watch?v=86QbluMG28s)<br/><small>Ignite talk at Devopsdays Oslo 2021, English.</small>
