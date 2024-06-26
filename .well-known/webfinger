@@ -1,0 +1,32 @@
+---
+layout: none
+permalink: /.well-known/webfinger
+---
+{
+  "subject": "https://github.com/nikolaia",
+  "aliases": [
+    "https://hachyderm.io/@nikolaia",
+    "https://twitter.com/nikolaiii",
+    "https://github.com/nikolaia",
+    "https://www.instagram.com/nikolaia",
+    "https://www.linkedin.com/in/nikolaia",
+    "https://keybase.io/nikolaia",
+  ],
+  "links": [
+    {
+      "rel": "http://webfinger.net/rel/profile-page",
+      "type": "text/html",
+      "href": "https://nikolaia.com"
+    },
+    {
+      "rel": "http://webfinger.net/rel/avatar",
+      "type": "image/jpeg",
+      "href": "https://nikolaia.com/assets/profile.jpg"
+    },
+    {
+      "rel": "http://webfinger.net/rel/public-key",
+      "type": "application/pgp-keys",
+      "href": "https://nikolaia.com/.well-known/pgp-keys.asc"
+    }
+  ]
+}
