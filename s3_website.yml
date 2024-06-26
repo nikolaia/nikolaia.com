@@ -11,15 +11,18 @@ cloudfront_distribution_id: E3MMUMPJBKAVNM
 # index_document: index.html
 # error_document: error.html
 
-# max_age:
-#   "assets/*": 6000
-#   "*": 300
+max_age:
+  "assets/*": 6000
+  "*": 300
 
-# gzip:
-#   - .html
-#   - .css
-#   - .md
-# gzip_zopfli: true
+mime:
+  ".well-known/webfinger": "application/json"
+
+gzip:
+  - .html
+  - .css
+  - .md
+gzip_zopfli: true
 
 # See http://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region for valid endpoints
 # s3_endpoint: ap-northeast-1
