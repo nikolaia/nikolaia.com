@@ -5,7 +5,7 @@ export const SITE: Site = {
   author: "Nikolai Norman Andersen",
   profile: "https://nikolaia.com",
   desc: "Writings of Nikolai Norman Andersen",
-  title: "nikolaia",
+  title: "@nikolaia.com",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerIndex: 4,
