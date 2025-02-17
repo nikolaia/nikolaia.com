@@ -55,9 +55,9 @@ export default defineConfig({
     "/consolidate-nuget-packages-fake-target":
       "/posts/consolidate-nuget-packages-fake-target",
     "/aspnet5-development-on-osx-with-docker":
-      "/posts/aspnet5-development-on-osx-with-docker",
+      "/posts/aspnet-5-in-docker-on-osx ",
     "/octopus-deploy-and-teamcity-integration-in-slack":
-      "/posts/octopus-deploy-and-teamcity-integration-in-slack",
+      "/posts/teamcity-and-octopus-deploy-in-slack",
     "/the-lean-startup": "/posts/the-lean-startup",
     "/using-canvas-and-a-webcam-to-track-objects":
       "/posts/using-canvas-and-a-webcam-to-track-objects",
