@@ -51,7 +51,7 @@ export default defineConfig({
     "/ingenting-aa-skjule-det-er-fortsatt-problematisk-at-din-persondata-lagres-sentralt":
       "/posts/ingenting-aa-skjule-det-er-fortsatt-problematisk-at-din-persondata-lagres-sentralt",
     "/how-to-use-elastic-beanstalk-with-an-ip-whitelisted-api-terraform":
-      "/posts/how-to-use-elastic-beanstalk-with-an-ip-whitelisted-api-terraform",
+      "/posts/static-outgoing-ip-elastic-beanstalk-terraform",
     "/consolidate-nuget-packages-fake-target":
       "/posts/consolidate-nuget-packages-fake-target",
     "/aspnet5-development-on-osx-with-docker":
