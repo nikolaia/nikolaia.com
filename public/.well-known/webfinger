@@ -1,12 +1,11 @@
 {
   "subject": "https://github.com/nikolaia",
   "aliases": [
+    "https://bsky.app/profile/nikolaia.com",
+    "https://www.linkedin.com/in/nikolaia",
     "https://hachyderm.io/@nikolaia",
-    "https://twitter.com/nikolaiii",
     "https://github.com/nikolaia",
     "https://www.instagram.com/nikolaia",
-    "https://www.linkedin.com/in/nikolaia",
-    "https://keybase.io/nikolaia"
   ],
   "links": [
     {
@@ -22,7 +21,7 @@
     {
       "rel": "http://webfinger.net/rel/public-key",
       "type": "application/pgp-keys",
-      "href": "https://nikolaia.com/.well-known/pgp-keys.asc"
+      "href": "https://nikolaia.com/.well-known/pgp_keys.asc"
     }
   ]
 }
