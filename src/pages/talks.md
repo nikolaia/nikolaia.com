@@ -3,11 +3,7 @@ layout: ../layouts/TalksLayout.astro
 title: "Talks"
 ---
 
-<<<<<<< Updated upstream
-- [Why Secrets Belong in Git](https://www.youtube.com/watch?v=_-F3TxqosMU)<br/><small>Lightning talk at Booster 2025, English</small>
-=======
 - [Why Secrets Belong in Git](https://vimeo.com/1069766864)<br/><small>Lightning talk at Booster 2025, English</small>
->>>>>>> Stashed changes
 - [Secure Computing and Hands-on Privacy By Design](https://www.youtube.com/watch?v=_-F1TxqosMU)<br/><small>Talk at NDC Oslo 2024 and Hello Stavanger 2024, English</small>
 - [Death to Test Environments](https://www.youtube.com/watch?v=ZToDbkFyAto)<br/><small>Lightning talk at NDC Oslo 2022, Booster Bergen 2023 and Hello Stavanger 2024, English.</small>
 - [How privacy demands in software development has changed since the introduction of GDPR](https://vimeo.com/692594162)<br/><small>Booster 2022, English</small>
