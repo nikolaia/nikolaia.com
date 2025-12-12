@@ -38,9 +38,6 @@ export default defineConfig({
     },
   },
   scopedStyleStrategy: "where",
-  experimental: {
-    contentLayer: true,
-  },
 
   redirects: {
     "/naar-autonomi-blir-anarki": "/posts/nar-autonomi-blir-anarki",
