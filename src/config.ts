@@ -33,6 +33,12 @@ export const LOGO_IMAGE = {
 
 export const SOCIALS: SocialObjects = [
   {
+    name: "Bluesky",
+    href: "https://bsky.app/profile/nikolaia.com",
+    linkTitle: `${SITE.title} on Bluesky`,
+    active: true,
+  },
+  {
     name: "Github",
     href: "https://github.com/nikolaia",
     linkTitle: ` ${SITE.title} on Github`,
