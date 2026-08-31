@@ -1,0 +1,27 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "@layouts/Layout.astro";
+import Main from "@layouts/Main.astro";
+import Header from "@components/Header.astro";
+import Footer from "@components/Footer.astro";
+import Card from "@components/Card";
+import { SITE } from "@config";
+import getPostsByTag from "@utils/getPostsByTag";
+
+const posts = await getCollection("blog", ({ data }) => !data.draft);
+const talks = getPostsByTag(posts, "talk");
+---
+
+<Layout title={`Talks | ${SITE.title}`}>
+  <Header activeNav="talks" />
+  <Main pageTitle="Talks" pageDesc="Talks I've given.">
+    <ul>
+      {
+        talks.map(({ data, id }) => (
+          <Card href={`/posts/${id}/`} frontmatter={data} />
+        ))
+      }
+    </ul>
+  </Main>
+  <Footer />
+</Layout>
