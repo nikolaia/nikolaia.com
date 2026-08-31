@@ -1,15 +1,9 @@
-<a id="bsky-latest" class="bsky-latest" hidden href="https://bsky.app/profile/nikolaia.com">
-  <img alt="" width="40" height="40" />
-  <p></p>
-</a>
+<ul id="bsky-latest" class="bsky-latest" hidden></ul>
 
 <script>
   async function load() {
     const el = document.getElementById("bsky-latest");
-    if (!(el instanceof HTMLAnchorElement)) return;
-    const img = el.querySelector("img");
-    const p = el.querySelector("p");
-    if (!img || !p) return;
+    if (!(el instanceof HTMLUListElement)) return;
 
     const data = await fetch(
       "https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed?actor=nikolaia.com&limit=8&filter=posts_no_replies"
@@ -17,14 +11,29 @@
       .then(r => r.json())
       .catch(() => null);
 
-    const item = data?.feed?.find((i: { reason?: unknown }) => !i.reason);
-    if (!item) return;
+    const items = data?.feed
+      ?.filter((i: { reason?: unknown }) => !i.reason)
+      .slice(0, 3);
+    if (!items?.length) return;
 
-    const { post } = item;
-    img.src = post.author.avatar;
-    img.alt = post.author.displayName || post.author.handle;
-    p.textContent = post.record.text;
-    el.href = `https://bsky.app/profile/${post.author.handle}/post/${post.uri.split("/").pop()}`;
+    el.replaceChildren(
+      ...items.map((item: { post: { author: { avatar: string; displayName?: string; handle: string }; record: { text: string }; uri: string } }) => {
+        const { post } = item;
+        const li = document.createElement("li");
+        const a = document.createElement("a");
+        const img = document.createElement("img");
+        const p = document.createElement("p");
+        img.src = post.author.avatar;
+        img.alt = post.author.displayName || post.author.handle;
+        img.width = 40;
+        img.height = 40;
+        p.textContent = post.record.text;
+        a.href = `https://bsky.app/profile/${post.author.handle}/post/${post.uri.split("/").pop()}`;
+        a.append(img, p);
+        li.append(a);
+        return li;
+      })
+    );
     el.hidden = false;
   }
 
@@ -34,7 +43,10 @@
 
 <style>
   .bsky-latest {
-    @apply mt-6 flex max-w-xl items-start gap-3 no-underline;
+    @apply mt-6 flex flex-col gap-4;
+  }
+  .bsky-latest a {
+    @apply flex items-start gap-3 no-underline;
   }
   .bsky-latest img {
     @apply h-10 w-10 shrink-0 rounded-full;
