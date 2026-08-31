@@ -1,0 +1,45 @@
+<a id="bsky-latest" class="bsky-latest" hidden href="https://bsky.app/profile/nikolaia.com">
+  <img alt="" width="40" height="40" />
+  <p></p>
+</a>
+
+<script>
+  async function load() {
+    const el = document.getElementById("bsky-latest");
+    if (!(el instanceof HTMLAnchorElement)) return;
+    const img = el.querySelector("img");
+    const p = el.querySelector("p");
+    if (!img || !p) return;
+
+    const data = await fetch(
+      "https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed?actor=nikolaia.com&limit=8&filter=posts_no_replies"
+    )
+      .then(r => r.json())
+      .catch(() => null);
+
+    const item = data?.feed?.find((i: { reason?: unknown }) => !i.reason);
+    if (!item) return;
+
+    const { post } = item;
+    img.src = post.author.avatar;
+    img.alt = post.author.displayName || post.author.handle;
+    p.textContent = post.record.text;
+    el.href = `https://bsky.app/profile/${post.author.handle}/post/${post.uri.split("/").pop()}`;
+    el.hidden = false;
+  }
+
+  load();
+  document.addEventListener("astro:after-swap", load);
+</script>
+
+<style>
+  .bsky-latest {
+    @apply mt-6 flex max-w-xl items-start gap-3 no-underline;
+  }
+  .bsky-latest img {
+    @apply h-10 w-10 shrink-0 rounded-full;
+  }
+  .bsky-latest p {
+    @apply m-0 line-clamp-4 whitespace-pre-wrap text-sm;
+  }
+</style>

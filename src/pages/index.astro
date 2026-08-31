@@ -7,6 +7,7 @@ import LinkButton from "@components/LinkButton.astro";
 import Hr from "@components/Hr.astro";
 import Card from "@components/Card";
 import Socials from "@components/Socials.astro";
+import BlueskyLatest from "@components/BlueskyLatest.astro";
 import getSortedPosts from "@utils/getSortedPosts";
 import { slugifyAll } from "@utils/slugify";
 import { SITE, SOCIALS } from "@config";
@@ -29,6 +30,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
       socialCount > 0 && (
         <section id="hero">
           <Socials />
+          <BlueskyLatest />
         </section>
       )
     }
