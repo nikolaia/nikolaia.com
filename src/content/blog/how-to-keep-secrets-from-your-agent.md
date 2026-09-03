@@ -14,6 +14,10 @@ canonicalURL: https://2026.javazone.no/program/c14b5db1-9c44-4258-a39d-70aadfb2c
 
 Lightning talk at [JavaZone 2026](https://2026.javazone.no/program/c14b5db1-9c44-4258-a39d-70aadfb2c2e9/), English.
 
+<iframe src="https://player.vimeo.com/video/1223407333" title="How to Keep Secrets from your Agent" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+[Watch on Vimeo](https://vimeo.com/1223407333)
+
 Handle secrets from SOPS-encrypted files, live Kubernetes Secrets, or config inside running pods without exposing plaintext.
 
 ```md
