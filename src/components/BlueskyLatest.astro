@@ -17,22 +17,30 @@
     if (!items?.length) return;
 
     el.replaceChildren(
-      ...items.map((item: { post: { author: { avatar: string; displayName?: string; handle: string }; record: { text: string }; uri: string } }) => {
-        const { post } = item;
-        const li = document.createElement("li");
-        const a = document.createElement("a");
-        const img = document.createElement("img");
-        const p = document.createElement("p");
-        img.src = post.author.avatar;
-        img.alt = post.author.displayName || post.author.handle;
-        img.width = 40;
-        img.height = 40;
-        p.textContent = post.record.text;
-        a.href = `https://bsky.app/profile/${post.author.handle}/post/${post.uri.split("/").pop()}`;
-        a.append(img, p);
-        li.append(a);
-        return li;
-      })
+      ...items.map(
+        (item: {
+          post: {
+            author: { avatar: string; displayName?: string; handle: string };
+            record: { text: string };
+            uri: string;
+          };
+        }) => {
+          const { post } = item;
+          const li = document.createElement("li");
+          const a = document.createElement("a");
+          const img = document.createElement("img");
+          const p = document.createElement("p");
+          img.src = post.author.avatar;
+          img.alt = post.author.displayName || post.author.handle;
+          img.width = 40;
+          img.height = 40;
+          p.textContent = post.record.text;
+          a.href = `https://bsky.app/profile/${post.author.handle}/post/${post.uri.split("/").pop()}`;
+          a.append(img, p);
+          li.append(a);
+          return li;
+        }
+      )
     );
     el.hidden = false;
   }
