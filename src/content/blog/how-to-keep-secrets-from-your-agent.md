@@ -18,7 +18,9 @@ Lightning talk at [JavaZone 2026](https://2026.javazone.no/program/c14b5db1-9c44
 
 [Watch on Vimeo](https://vimeo.com/1223407333)
 
-Handle secrets from SOPS-encrypted files, live Kubernetes Secrets, or config inside running pods without exposing plaintext.
+Agents are taking your job, but can you at least keep your secrets? The last thing we want is agents and LLMs reading our secret values into context and sending them to someone else's computer. In this talk I will get into how to safely store secrets in git using encryption and how we can let our agents use these secrets without seeing them.
+
+I will introduce you to SOPS, key management and practical patterns like stdin-based handoff that let agents use secrets without dragging the plaintext into prompts, logs, chats or onto remote servers. There are some caveats, make sure you come and learn what they are!
 
 ```md
 ---
