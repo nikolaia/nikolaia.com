@@ -2,7 +2,7 @@
 title: azctx — kubectx for the Azure CLI
 description: A kubectx-inspired fish function for using different Azure accounts in different shells.
 author: Nikolai Norman Andersen
-pubDatetime: 2026-10-06T12:00:00Z
+pubDatetime: 2026-10-06T08:00:00Z
 featured: false
 draft: false
 tags:
