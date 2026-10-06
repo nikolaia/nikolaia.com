@@ -18,9 +18,9 @@ Lightning talk at [JavaZone 2026](https://2026.javazone.no/program/c14b5db1-9c44
 
 [Watch on Vimeo](https://vimeo.com/1223407333)
 
-Agents are taking your job, but can you at least keep your secrets? The last thing we want is agents and LLMs reading our secret values into context and sending them to someone else's computer. In this talk I will get into how to safely store secrets in git using encryption and how we can let our agents use these secrets without seeing them.
+Agents are taking your job, but can you at least keep your secrets? Owning the repo, the cluster, even the agent runtime is not enough if a model can read a secret into context. The context window is a boundary too: once a value crosses it, it is in prompts, logs, chats, and on someone else's computer.
 
-I will introduce you to SOPS, key management and practical patterns like stdin-based handoff that let agents use secrets without dragging the plaintext into prompts, logs, chats or onto remote servers. There are some caveats, make sure you come and learn what they are!
+I will show how to store secrets in git with encryption, and how agents can use them without seeing them — SOPS, key management, and stdin-based handoff. There are caveats; make sure you come and learn what they are!
 
 ```md
 ---
